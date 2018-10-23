@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Registro Nuvola</string>
+    <string name="comms_name">Comunicati</string>
+    <string name="specials_name">Speciale</string>
+    <string name="logout_name">Logout</string>
+    <string name="topics_name">Argomenti</string>
+    <string name="marks_name">Voti</string>
+    <string name="settings_name">Impostazioni</string>
+    <string name="period1">Primo quadrimestre</string>
+    <string name="period2">Secondo anno</string>
+    <string name="period3">Intero anno</string>
+    <string name="password"></string>
+    <string name="termdate">22/01/2018</string>
+    <string name="dialoglog">Inserisci i tuoi dati:</string>
+    <string name="resetpswtitle">E\' opportuno scegliere una nuova password:</string>
+    <string name="topipctransition"></string>
+    <string name="resetpswwarnings">La nuova password deve rispettare le seguenti regole:\n
+    -Almeno 8 caratteri\n
+    -Almeno un carattere speciale.
+        \n(!-?/%$&amp;_ sono alcuni esempi di caratteri speciali utilizzabili)\n
+    -Almeno un carattere maiuscolo ed uno minuscolo\n
+    -Almeno un numero\n</string>
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "771575119366",
+    "firebase_url": "https://grassi-dcf9a.firebaseio.com",
+    "project_id": "grassi-dcf9a",
+    "storage_bucket": "grassi-dcf9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771575119366:android:9b845c5a33648407",
+        "android_client_info": {
+          "package_name": "com.beccari.grassi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771575119366-sf400e4mcr5d35uhu2b375t666g91srs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beccari.grassi",
+            "certificate_hash": "84d305ebe74a78e2a21ca1806846c1e396f6baba"
+          }
+        },
+        {
+          "client_id": "771575119366-ue30bnr27qfv5us3n6dkj8gshemnjcum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClwCCHr99Fq_8hpsV9pPgiquhAozFGGFE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771575119366-ue30bnr27qfv5us3n6dkj8gshemnjcum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:minHeight="60dp"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ttitlebox"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            android:minHeight="80dp"
+            android:orientation="horizontal"
+            android:textAllCaps="true">
+            <TextView
+                android:id="@+id/marks_valuebox"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:minWidth="80dp"
+                android:text="9"
+                android:textAllCaps="true"
+                android:textSize="50sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".6"
+            android:orientation="vertical"
+            android:minHeight="80dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/marks_subbox"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Religione"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:id="@+id/marks_descbox"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="questo è un lungo testo di prova per verificare che il layout funzioni anche con descrizioni lunghe"
+                android:textAllCaps="true"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight=".2"
+            android:minHeight="80dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/marks_datebox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="20"
+                    android:textAllCaps="true"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/marks_monthbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="GIU"
+                    android:textAllCaps="true"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

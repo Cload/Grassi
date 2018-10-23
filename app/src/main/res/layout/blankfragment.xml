@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/fragmentlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.beccari.grassi.gui.NoSwipePager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"/>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/commtbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".33"
+                android:id="@+id/comlayout"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/commbutton"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="?android:selectableItemBackground"
+                    android:color="@color/buttonscolor"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/comms" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|top"
+                    android:text="Comunicati"
+                    android:textSize="12sp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".33"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/archbutton"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="?android:selectableItemBackground"
+                    android:color="@color/buttonscolor"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/archived" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Archiviati"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".33"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/savedbuttons"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="?android:selectableItemBackground"
+                    android:color="@color/buttonscolor"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/saved" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salvati"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+</RelativeLayout>
